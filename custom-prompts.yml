@@ -1,0 +1,13 @@
+# Custom prompts example
+summarize: |
+  ## Search Results for "{{query}}"
+  
+  {{#each results}}
+  ### {{@index}}. {{this.title}}
+  {{this.snippet}}
+  
+  URL: {{this.url}}
+  {{/each}}
+  
+  ---
+  *Total results: {{results.length}}*

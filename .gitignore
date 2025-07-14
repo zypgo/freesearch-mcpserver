@@ -43,3 +43,6 @@ coverage/
 # Temporary files
 tmp/
 temp/
+
+# Test files
+test-rpc.js

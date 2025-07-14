@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "freesearch": {
+      "command": "node",
+      "args": [
+        "/Users/frank123/Desktop/freesearch-mcpserver/dist/index.js"
+      ]
+    }
+  }
+}

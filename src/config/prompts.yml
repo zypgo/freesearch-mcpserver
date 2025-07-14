@@ -1,0 +1,6 @@
+# Prompts configuration
+summarize: |
+  Summarize the following search results for "{{query}}" in bullet points:
+  {{#each results}}
+  - {{this.title}}: {{this.snippet}}
+  {{/each}}

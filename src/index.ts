@@ -2,11 +2,14 @@
  * FreeArch MCP - Main entry point
  */
 
-export function main(): void {
+import { startServer } from './server';
+
+export async function main(): Promise<void> {
   console.log('FreeArch MCP initialized');
+  await startServer();
 }
 
 // Run if called directly
 if (require.main === module) {
-  main();
+  main().catch(console.error);
 }

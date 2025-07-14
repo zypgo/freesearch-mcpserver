@@ -1,0 +1,11 @@
+{
+    "mcpServers": {
+        "freesearch": {
+            "command": "npx",
+            "args": [
+                "freesearch-mcpserver@latest"
+            ],
+            "disabled": false
+        }
+    }
+}
