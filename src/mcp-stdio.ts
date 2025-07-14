@@ -23,7 +23,7 @@ if (promptFileIndex !== -1 && promptFileIndex + 1 < args.length) {
 // Create MCP server
 const mcpServer = new McpServer({
   name: 'freesearch-mcpserver',
-  version: '1.0.0',
+  version: '1.0.1',
 });
 
 // Register search tool

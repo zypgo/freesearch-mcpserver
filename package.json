@@ -1,6 +1,6 @@
 {
   "name": "freesearch-mcpserver",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Free Search MCP Server - A Model Context Protocol server for web search using DuckDuckGo",
   "main": "dist/index.js",
   "bin": {
